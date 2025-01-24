@@ -18,7 +18,10 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 <body>
-    <div class="logo-watermark"><img src="opto/images/OPTOBOT.png"></div>
+    <div class="logo-watermark"><img src="opto/images/OPTOBOT - SECUNDARY - WHITE 1.svg"></div>
+    <div class="robotic"><img src="opto/images/robotic.png"></div>
+    <div class="optobotlogo"><img src="opto/images/OPTOBOT LOGO 4.svg"></div>
+    <div class="optobotsimbolo"><img src="opto/images/OPTOBOT LOGO 3.svg"></div>
     <section>
         <div class="login-box">
              <div class="login-box-header">Login</div>

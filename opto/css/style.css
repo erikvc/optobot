@@ -20,6 +20,38 @@ html, body {
     max-height: 400px;
 }
 
+.robotic{
+    width: 1163px;
+    height: 652px;
+    top: 300px;
+    left: 250px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    z-index: 2;
+}
+
+.optobotlogo{
+    width: 398px;
+    height: 94px;
+    opacity: 0px;
+    top: 230px;
+    left: 880px;
+    gap: 0px;
+    position: absolute;
+}
+
+.optobotsimbolo{
+    width: 549px;
+    height: 501px;
+    top: 119.37px;
+    left: 890px;
+    gap: 0px;
+    opacity: 0.1;
+    position: absolute;
+    z-index: 1;
+}
+
 .login-box{
     margin-left: 104px;
     margin-top: 104px;
@@ -598,4 +630,411 @@ html, body {
     to {
         transform: rotate(360deg);
     }
+}
+
+/***************pag. adding source**************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    overflow: hidden;
+}
+
+.watermark {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    max-height: 400px;
+}
+
+.logo-optobot {
+    display: flex;
+    align-items: center;
+    padding: 119px 28px;
+    width: 188px;
+    height: 39px;
+    margin-left: 28px;
+}
+
+.btn-container {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-menu {
+    width: 93px;
+    color: #565656;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    transition: color 0.3s ease;
+    display: flex;
+    padding: 16px 20px;
+    align-items: center;
+    margin-left: 36px;
+}
+
+.btn-menu:hover {
+    color: #FFFFFF;
+}
+
+.btn-menu img {
+    margin-right: 10px;
+    width: 24px;
+    height: auto;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.menu-container {
+    width: 20%;
+    flex-direction: column;
+    background-color: #050505;
+    padding: 20px;
+}
+
+h1 {
+    margin: 30px auto 10px 30px;
+    margin-left: 40px;
+    
+}
+
+p {
+    color: #565656;
+    margin-left: 40px;
+}
+
+.txt-pdf-container {
+    position: relative;
+    flex: 1;
+    background-color: #101010;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+.btn-back {
+    color: #565656;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-container {
+    margin-left: 100px;
+    color: #FDFDFD;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 437px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.newsoucer-container{
+    width: 298px;
+    color: #8B8B8B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 100px;
+}
+
+.btn-pdf {
+    width: 144px;
+    height: 46px;
+    border: 1px solid #303030;
+    background: #151515;
+    margin-top: 40px;
+    margin-left: 100px; 
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 16px 20px;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    width: 40px;
+    height: 40px;
+}
+
+.pdf-tag {
+    font-size: 16px;
+    color: #9298A1;
+    font-weight: bold;
+}
+
+.btn-txt {
+    width: 144px;
+    height: 46px;
+    margin-top: 40px;
+    margin-left: 100px; 
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 16px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #565656;
+}
+
+.btn-txt-2 {
+    width: 144px;
+    height: 46px;
+    border: 1px solid #303030;
+    background: #151515;
+    margin-top: 40px;
+    margin-left: 100px; 
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 16px 20px;
+    gap: 16px;
+    cursor: pointer;
+    color: #8B8B8B;
+}
+
+.btn-pdf-2 {
+    width: 144px;
+    height: 46px;
+    margin-top: 40px;
+    margin-left: 100px; 
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 16px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #565656;
+}
+
+.avatar-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    width: 40px;
+    height: 40px;
+}
+
+.txt-tag {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.add-box-container {
+    width: 780px;
+    height: 700px;
+    margin-top: 100px;
+    border: 1px solid rgba(146, 152, 161, 0.50);
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    background: #151515;
+}
+
+.source-box-container {
+    color: #8B8B8B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 18px 25px;
+}
+
+.source {
+    width: 437px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #FDFDFD;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.source-info {
+    width: 422px;
+    color: #8B8B8B;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 75px;
+}
+
+.name {
+    color: #8B8B8B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 112.4%;
+    margin-left: 75px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.search-name {
+    border-radius: 8px;
+    background: linear-gradient(0deg, #222 0%, #222 100%), #151515;
+    margin-left: 75px;
+    margin-right: 100px;
+    
+}
+
+.search-name input {
+    width: 600px;
+    height: 52px;
+    border: none;
+    background: none;
+    color: #444;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 112.4%;
+    padding: 12px 16px;
+}
+
+.file-container {
+    width: 610px;
+    height: 105px;
+    border-radius: 20px;
+    border: 1px dashed #565656;
+    margin-left: 73px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.file-container img {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.info-text {
+    margin-top: 15px;
+    align-self: stretch;
+    color: #8B8B8B;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;    
+}
+
+.btn-selectfile {
+    width: 126px;
+    height: 36px;
+    margin-left: 20px;
+    border: 2px solid #14BDEB;
+    border-radius: 10px;
+    background: none;
+    background-color: none;
+    color: #14BDEB;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.search-email {
+    border-radius: 8px;
+    background: linear-gradient(0deg, #222 0%, #222 100%), #151515;
+    margin-left: 75px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.search-email input {
+    width: 600px;
+    height: 124px;
+    border: none;
+    background: none;
+    color: #444;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 112.4%;
+    padding-bottom: 80px;
+    padding-left: 16px;
+}
+
+.save-btn {
+    width: 96px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #14BDEB;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 18px 22px;
+    margin-left: 80px;
+}
+
+.bot-btn :hover {
+    color: #FFFFFF
+}
+
+.btn-text {
+    width: 44px;
+    height: 22px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    background: none;
 }
