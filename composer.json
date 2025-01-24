@@ -1,0 +1,14 @@
+{
+    "name": "erik/optobot",
+    "autoload": {
+        "psr-4": {
+            "Erik\\Optobot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "opto"
+        }
+    ],
+    "require": {}
+}
