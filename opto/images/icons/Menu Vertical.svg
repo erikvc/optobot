@@ -1,0 +1,9 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect id="Menu Vertical" width="20" height="20" fill="url(#pattern0_360_1396)"/>
+<defs>
+<pattern id="pattern0_360_1396" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_360_1396" transform="scale(0.0208333)"/>
+</pattern>
+<image id="image0_360_1396" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABV0lEQVR4nO3Yz0rDQBAG8DlbjE9gFd9Aqwe9S0FCDgvft4FdpPgiij6Cf/A59D1Eq69S9SLKag+h2DaeMovzg4FALjPZySSMiDHGzHLObQC4AHCfguQ5gL7kAMAJyXeSn80A8AZgJJqRPALwMZt8o4h0byhaAXiZl3wjxqKRc26rRfLf4b3fFG289wdtCwCwL9q43E8gAfDc4uk/iVYkh8umEIBD0QzAKM38Xwp4JXksOQDQB3AG4C4FyVPv/XrXeZmsxBh7dV3vpkjXkgsAawBupy9t8wW+CSEUoj15kuMFY/RRdRH4efLLPmTXolGMsTfTNvNiUpblimhDcu8PP3MD0QbAoG0BdV1vizYx9xZK0qhsUcClaBVCKNKoXND7D1VVrYpmIYRiehLNdpqQvFKffFPqc5I7KdT2vNHKVotdsdVil7JfbHlbLSpgq0UNbLVojPlfvgAg60LSOwMMwgAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>
